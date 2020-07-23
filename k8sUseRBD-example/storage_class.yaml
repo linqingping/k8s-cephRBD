@@ -10,6 +10,7 @@ provisioner: ceph.com/rbd
 reclaimPolicy: Retain
 #reclaimPolicy: Delete 回收
 parameters:
+  #ceph 管理节点ip
   monitors: 192.168.70.42:6789,192.168.70.43:6789,192.168.70.44:6789
   adminId: admin
   adminSecretName: storage-secret
