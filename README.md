@@ -3,10 +3,10 @@
 ```
 kubectl apply -f ./
 ```
-## 使用的镜像quay.io/external_storage/rbd-provisioner
-### https://github.com/linqingping/external-storage可以在里面下载相应的ceph相关的然后执行部署
-### 新增了如下内容
-
+## 备注：
+#### 使用的镜像quay.io/external_storage/rbd-provisioner
+#### https://github.com/linqingping/external-storage可以在里面下载相应的ceph相关的然后执行部署
+#### clusterrole.yaml增了如下内容
 ```
   - apiGroups: [""]
     resources: ["secrets"]
